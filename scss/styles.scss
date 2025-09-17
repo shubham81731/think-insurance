@@ -96,6 +96,18 @@
   }
 }
 
+@media (max-width: 576px) {
+  .topbar .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topbar .social-icons,
+  .topbar .btn {
+    margin: 5px 0;
+  }
+}
+
 @media (max-width: 420px) {
   .topbar .social-icons {
     gap: 0.5rem !important;
